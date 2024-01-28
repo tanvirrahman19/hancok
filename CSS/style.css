@@ -1,0 +1,1191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #121212;
+}
+
+.container {
+    width: 1300px;
+}
+
+/* ===================Nav Start ======================== */
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-item {
+    margin-left: 30px;
+
+}
+
+.navbar {
+    position: absolute !important;
+    width: 70%;
+}
+
+.navIcon a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #e76671 !important;
+    transition: .5s;
+}
+
+.bannerIcon li:hover {
+    color: #e76671;
+}
+
+/* ===================Nav End ======================== */
+/* ===================Banner Start ======================== */
+#Banner {
+    background: url("../Images/Banner.png") no-repeat center;
+    background-size: cover;
+    height: 1080px;
+}
+
+.bannertitle {
+    color: #FFFFFF;
+}
+
+.bannertitle h3 {
+    padding-top: 270px;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 2.7px;
+}
+
+.bannertitle h1 {
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.bannertitle h1::after {
+    content: "";
+    width: 90px;
+    height: 5px;
+    background: #FFFFFF;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.bannertitle p {
+    font-size: 16px;
+    font-weight: 300;
+    width: 523px;
+    padding-bottom: 48px;
+}
+
+.bannertitle button {
+    width: 128px;
+    height: 50px;
+    background: #FFFFFF;
+    color: #121212;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.bannertitle button:hover {
+    background-color: #FF4655;
+    transition: .6s;
+    border-radius: 5px;
+}
+
+.bannerIcon {
+    color: #FFFFFF;
+}
+
+.bannerIcon ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: -32px;
+    font-size: 28px;
+    color: #D9D9D9;
+    margin-top: 301px;
+
+}
+
+/* ===================Banner End ======================== */
+/* ===================About Start======================== */
+.Abouttitle h1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+    width: 518px;
+    letter-spacing: 3.8px;
+    position: relative;
+    margin-top: 34px;
+}
+
+.Abouttitle h1::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: #FF4655;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.aboutImg {
+    margin-top: 57px;
+}
+
+.AboutRow {
+    position: relative;
+}
+
+.aboutTitle {
+    margin-left: 800px;
+    /* position: absolute; */
+    /* top: 64px; */
+    margin-top: -405px;
+}
+
+.aboutTitle h3 {
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.87px;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+.aboutTitle h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.aboutTitle p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.abouttagi {
+    color: #FF4655;
+}
+
+.aboutTitle button {
+    background: #212121;
+    color: #FFFFFF;
+    width: 128px;
+    height: 50px;
+    border-style: none;
+    margin-top: 30px;
+    margin-bottom: 57px;
+}
+
+.aboutTitle button:hover {
+    background-color: #FF4655;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+.rectangle {
+    width: 305px;
+    height: 175px;
+    border-radius: 0px 50px 0px 50px;
+    background-color: #212121;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.rectangle:hover {
+    background: #FF4655;
+    transition: 0.4s;
+}
+
+.rectangle h2 {
+    justify-content: center;
+    display: flex;
+    padding-top: 26px;
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.rectangle h2::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #FF4655;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-left: 8px;
+
+}
+
+.rectangle h2:hover::after {
+    transition: .4s;
+    background: #ffffff;
+
+}
+
+.rectangle h2::after:hover {
+    background: #FFFFFF;
+}
+
+.rectangle h6 {
+    justify-content: center;
+    display: flex;
+    padding-top: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.36px;
+}
+
+/* ===================About End======================== */
+/* ===================Popular Start======================== */
+
+#Popular {
+    background: rgb(34, 36, 43);
+}
+
+.popularTitle {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: right;
+}
+
+.popularTitle h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    width: 454px;
+    text-align: right;
+    position: relative;
+    margin-top: 115px;
+    letter-spacing: 2.66px;
+}
+
+.popularTitle h3::after {
+    width: 105px;
+    height: 3px;
+    background-color: #FF4655;
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    right: 179px;
+    border-radius: 2px;
+}
+
+.popularImg {
+    display: flex;
+    position: relative;
+    margin-bottom: px;
+}
+
+.violant {
+    padding-top: -2px;
+    /* position: absolute; */
+    margin-bottom: 150px;
+    margin-top: -110px;
+}
+
+.Cartoon2 {
+    position: absolute;
+    top: 122px;
+    left: -76px;
+    margin-top: -30px;
+    margin-left: 685px;
+}
+
+.item {
+    height: 300px;
+    width: 300px;
+    background: red;
+}
+
+.sdksld {
+    display: flex;
+    gap: 20px;
+}
+
+/* .slick-prev{
+    position: absolute;
+    top: 400px;
+    left: 1250px;
+    z-index: 999;
+}
+.slick-next {
+    position: absolute;
+    top: 475px;
+    left: 1250px;
+} */
+.rightIcon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    right: 0;
+    bottom: 210px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 999;
+}
+
+.rightIcon:hover {
+    background: #FF4655;
+    transition: 0.5s;
+}
+
+.leftIcon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    right: 0;
+    bottom: 148px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.leftIcon:hover {
+    background: #FF4655;
+    transition: 0.5s;
+}
+
+/* ===================Popular End======================== */
+
+/* ===================Live Start======================== */
+
+.LiveTitle h1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+    width: 446px;
+    letter-spacing: 3.8px;
+    position: relative;
+    margin-top: 34px;
+}
+
+.LiveTitle h1::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: #FF4655;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.video_pic3 {
+    filter: grayscale(100%);
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.video_pic2 {
+    filter: grayscale(100%);
+    position: relative;
+}
+.textLive {
+    position: absolute;
+    left: 30px;
+    top: 117px;
+}
+.textLive h3 {
+    margin-top: 96px;
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 22px;
+    font-weight: 600;
+}
+.textLive h5{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.96px;
+}
+.textLive h6 {
+    color: #FFFFFF;
+    margin-left: 372px;
+    margin-top: -30px;
+font-family: Oswald;
+font-size: 16px;
+font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video_pic1 {
+    position: relative;
+    filter: grayscale(100%);
+
+}
+
+.LiveImg {
+    margin-top: 70px;
+}
+
+.LiveImg .video_pic1:hover {
+    filter: grayscale(10%);
+    transition: 0.4s;
+
+}
+
+.LiveImg .video_pic2:hover {
+    transition: 0.4s;
+    filter: grayscale(10%);
+
+}
+
+.LiveImg .video_pic3:hover {
+    transition: 0.4s;
+    filter: grayscale(10%);
+
+}
+
+.PlayIcon {
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    font-size: 22px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.video_pic2 img {
+    width: 426px;
+    height: 276.13px;
+}
+
+.LiveImg h4 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2.25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 61px;
+    margin-bottom: 49px;
+}
+
+.ScoreLeft {
+    width: 426px;
+    height: 118px;
+    background: #212121;
+    clip-path: polygon(0 0, 100% 1%, 85% 100%, 0% 100%);
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.ScoreLeft:hover {
+    background-color: #FF4655;
+    transition: .5s;
+    border-radius: 10px 0 0 18px;
+
+}
+
+.ScoreRight:hover {
+    background-color: #FF4655;
+    transition: .5s;
+    border-radius: 0 10px 18px 0;
+}
+
+.ScoreLeft h4 {
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+.lastImg {
+    margin-bottom: 90px;
+}
+
+.Scoretext {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.Scoretext h3 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 6px;
+}
+
+.ScoreRight {
+    width: 426px;
+    height: 118px;
+    background: #212121;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 20% 100%);
+    justify-content: end;
+    margin-top: 60px;
+
+}
+
+.ScoreRight h4 {
+    color: #FFFFFF;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.LiveScore1 {
+    margin-left: 60px;
+}
+
+/* ===================Live End======================== */
+/* ===================Sale Start======================== */
+
+#Sale {
+    height: 1462px;
+    background: rgb(34, 36, 43);
+
+}
+
+.SaleTitle {
+    display: flex;
+    justify-content: right;
+}
+
+.SaleTitle h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    width: 454px;
+    text-align: right;
+    position: relative;
+    margin-top: 115px;
+    letter-spacing: 2.66px;
+}
+
+.SaleTitle h3::after {
+    width: 105px;
+    height: 3px;
+    background-color: #FF4655;
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    right: 90px;
+    border-radius: 2px;
+}
+
+.SaleImg h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.SaleImg h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin: 20px 0;
+}
+
+.SaleImg button {
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50px;
+    height: 40px;
+    background: #FF4655;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.SaleImg button:hover {
+    background-color: #666666;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.SaleImg s {
+    font-family: 'Oswald', sans-serif;
+
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+    color: #666666;
+    margin-left: 13px;
+}
+
+.SaleImg h5 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: -33px;
+    margin-left: 20px;
+}
+
+.Catalogh6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.Explore {
+    background: #212121;
+    height: 454px;
+    font-family: 'Oswald', sans-serif;
+    width: 1318px;
+    margin-top: 118px;
+    position: relative;
+}
+
+.Explore h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    color: #FF4655;
+    margin-top: 45px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 15px;
+}
+
+.Explore h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+.Explore p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666666;
+    margin-top: 16px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+
+}
+
+.Explore button {
+    width: 128px;
+    height: 50px;
+    background: #121212;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+}
+
+.Explore button:hover {
+    background: #FF4655;
+    transition: 0.5s;
+}
+
+.ExploreImg {
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    margin-top: 42px;
+    margin-left: 565px;
+}
+
+.ExploreTitle {
+    position: absolute;
+    top: 45px;
+    left: 44px;
+}
+
+/* ===================Sale End======================== */
+/* ===================ACCESORIES Start======================== */
+.ACCESORIESTile h1 {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+    width: 446px;
+    letter-spacing: 7%;
+    position: relative;
+    margin-top: 34px;
+}
+
+.ACCESORIESTile h1::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: #FF4655;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.AccesoriessDiv {
+    width: 300px;
+    height: 465px;
+    background: #212121;
+    margin-left: 25px;
+    margin-top: 102px;
+    margin-bottom: 200px;
+    padding: 0;
+}
+
+.AccesoriessDiv h1 {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 7px;
+}
+
+.AccesoriessDiv h4 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 24px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.AccesoriessDiv h5 {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #FF4655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AccesoriesrightIcon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: #666666;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    right: -19px;
+    top: 300px;
+    line-height: 40px;
+    z-index: 999;
+}
+
+.AccesoriesrightIcon:hover {
+    background: #FF4655;
+    transition: 0.5s;
+}
+
+.AccesoriesleftIcon {
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    background: #666666;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-top: -468px;
+    line-height: 40px;
+    z-index: 999;
+    position: absolute;
+}
+
+.AccesoriesleftIcon:hover {
+    background: #FF4655;
+    transition: 0.5s;
+}
+
+.AccesoriessIMG {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 35px;
+}
+
+/* ===================ACCESORIES End======================== */
+/* ===================Team Start======================== */
+#Team {
+    background: #191919;
+    height: 1236px;
+}
+
+.TeamTitle h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 600;
+    width: 454px;
+    text-align: right;
+    position: relative;
+    top: 115px;
+    margin-bottom: 158px;
+    margin-top: 167px;
+    letter-spacing: 2.66px;
+    margin-left: 860px;
+}
+
+.TeamTitle h2::after {
+    width: 105px;
+    height: 3px;
+    background-color: #FF4655;
+    content: '';
+    position: absolute;
+    bottom: 9px;
+    right: 185px;
+    border-radius: 2px;
+}
+
+.TeamImg {
+    margin-top: 50px;
+}
+
+.teamImg1 img {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.TeamImg1 {
+    margin-top: 30px;
+}
+
+.teamImg {
+    filter: grayscale(100%);
+}
+
+.teamImg1 {
+    filter: grayscale(100%);
+}
+
+.teamImg:hover {
+    transition: 0.6s;
+    filter: grayscale(0%);
+}
+
+.teamImg1:hover {
+    filter: grayscale(0%);
+    transition: 0.6s;
+}
+
+.active {
+    filter: grayscale(0%) !important;
+
+}
+
+/* ===================Team End======================== */
+/* ===================FAQ Start======================== */
+.faqTitle h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 500;
+    width: 493px;
+    letter-spacing: 3.8px;
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 92px;
+}
+
+.faqTitle h2::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    background: #FF4655;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.FAQTEXT1 {
+    margin-bottom: 151px;
+    padding: 2;
+}
+
+.box {
+    width: 80px;
+    height: 60px;
+    background: #FF4655;
+    color: #FFFFFF;
+    margin-right: 42px;
+}
+
+.box h1 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3.8px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FF4655;
+
+}
+
+.text p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+
+}
+
+.FAQMain {
+    position: relative;
+    margin-bottom: 117px;
+}
+
+.lineX {
+    position: absolute;
+    top: 150px;
+    right: 660px;
+    width: 2px;
+    height: 379px;
+    background: #666666;
+}
+
+.lineY {
+    position: absolute;
+    top: 353px;
+    right: 60;
+    width: 1196px;
+    height: 2px;
+    background: #666666;
+}
+
+.SUBSCRIBEbox {
+    width: 1320px;
+    height: 165px;
+    background: rgb(255, 70, 85);
+    position: relative;
+    left: 20px;
+    margin-top: 230px;
+    z-index: 999;
+}
+
+.EmailBox input {
+    position: absolute;
+    top: 67px;
+    left: 895px;
+    height: 40px;
+    width: 409px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border-style: none;
+}
+
+.EmailBox input::placeholder {
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.SUBSCRIBEText h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    width: 725px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.EmailBox button {
+    position: absolute;
+    top: 67px;
+    left: 1188px;
+    height: 40px;
+    width: 117px;
+    text-transform: uppercase;
+    background: #191919;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border-style: none;
+    z-index: 999;
+}
+
+.footer2ndPart {
+    margin-left: 100px;
+}
+
+.footer2ndPart h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
+    margin-bottom: 30px;
+}
+
+.footer3rdPart h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
+    margin-bottom: 30px;
+}
+
+.footer4thart h3 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3.6px;
+    margin-bottom: 30px;
+}
+
+.footer2ndPart ul {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer3rdPart ul {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer2ndPart ul li {
+    list-style: none;
+    color: #666666;
+}
+
+.footer2ndPart ul li:hover {
+    list-style: none;
+    color: #FF4655;
+    transition: 0.4s;
+}
+
+.FooterIcon ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-left: -32px;
+    font-size: 28px;
+    color: #D9D9D9;
+    margin-top: 59px;
+}
+
+.FooterIcon ul li:hover {
+    color: #FF4655;
+    transition: 0.5s;
+}
+
+.footerStart {
+    margin-top: 120px;
+    margin-left: 20px;
+
+}
+
+.footer4thart {
+    margin-top: 120px;
+    margin-left: -115px;
+}
+
+.footer2ndPart {
+    margin-top: 120px;
+
+}
+
+.footer3rdPart {
+    margin-top: 120px;
+    margin-left: -150px;
+
+}
+
+.footer3rdPart ul li {
+    list-style: none;
+    color: #666666;
+}
+
+.footer3rdPart ul li:hover {
+    list-style: none;
+    color: #FF4655;
+    transition: 0.4s;
+}
+
+
+.FaqFooter {
+    background: #191919;
+    height: 562px;
+    position: absolute;
+    bottom: -8200px;
+    margin: 0;
+    padding: 0;
+}
+
+.FaqFooter p {
+    color: #666;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
+/* ===================FAQ End======================== */

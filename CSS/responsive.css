@@ -1,0 +1,320 @@
+@media (min-width:360px) and (max-width:576px) {
+    .navicon i {
+      
+    
+     
+        font-size: 28px;
+    }
+    .navicon {
+        margin-left: 408px;
+        margin-top: -70px;
+        font-size: 25px;
+        
+    }
+    #home .home_title h1 {
+        font-size: 34px;
+        line-height: 68px;
+        width: 471px;
+        padding-top: 31px;
+    }
+    #home .home_title p {
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    #home .home_title .two_button {
+        width: 130px;
+        height: 67px;
+        margin-top: 0px;
+
+    }
+    #home .home_title .one_button {
+        width: 130px;
+        height: 67px;
+        margin-top: 0px;
+    }
+    #home .home_title .two_button:hover {
+        width: 130px;
+        height: 67px;
+    }
+    #home .home_title .one_button:hover {
+        width: 130px;
+        height: 67px
+    }
+    
+    #home .home_pic img {
+        margin-left: -394px;
+        margin-top: 430px;
+        width: 335px;
+        
+    }
+    #Sum .sum_wrapper h3 {
+        width: 100%;
+        margin-left: 26%;
+        margin-top: 15px;
+        margin-bottom: -60px;
+    }
+    .samasung{
+        margin-top: -31px;
+        margin-left: -59px;
+        width: 129.69px;
+        
+    }
+    .emazon {
+        margin-top: -4px;
+    }
+    .Google {
+        margin-top: -31px;
+        margin-left: -8px;
+        width: 78.38px;
+    }
+    .ibm {
+        width: 59.78px;
+        margin-left: 18px;
+        margin-top: -35px;
+    }
+    .Daraz {
+        width: 87px;
+        margin-left: 20px;
+        margin-top: -40px;
+    }
+    .emazon {
+        width: 110.08px;
+        margin-left: 7px;
+        margin-top: -25px;
+    }
+    .product_wrapper {
+        display: inline-block;
+        gap: 20px;
+        margin-top: 10px;
+    }
+    .House_Product {
+        width: 481.09px;
+        margin-left: -8px;
+    }
+    .House_Product h1 {
+        font-size: 25px;
+    }
+    .House_Product h4 {
+        font-size: 17px;
+    }
+    .House_product_part {
+        width: 480px;
+        margin-left: -10px;
+        margin-top: -30px;
+    }
+    .house_image_two {
+        margin-left: -60px ;
+    }
+    .house_image {
+        margin-left: 38px;
+    }
+    .House_product_part h1 {
+        margin-left: 10px;
+        font-size: 26px;
+    }
+    .House_product_part h4 {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+    .House_Product h4{
+    margin-top: 10px;
+    }
+    #Products .Products_title h1 {
+        margin-top: 45px;
+        margin-left: 35%;
+        margin-bottom: 20px;
+    }
+    .nav_logo{
+        margin-left: 10px;
+        position: absolute;
+        top: 15px;
+    }
+
+    .nav_button {
+        position: absolute;
+        left: 238px;
+        top: 19px;
+    }
+    #Products .Products_title ul {
+        margin-left: -105px;
+    }
+    .sofa_Rectangle_one {
+        width: 475px;
+    }
+    .Rectangle {
+        left: 150px;
+    }
+    .sofa_Rectangle_one .Sofa1 {
+        padding-left: 136px;
+    }
+    .Rectangle2 {
+        left: 150px;
+
+    }
+    .sofa_Rectangle_one .Sofa2 {
+        padding-left: 147px;
+    }
+    .sofa_Rectangle_one{
+        margin-bottom: 275px
+
+    }
+    .Rectangle3 {
+        left: 150px;
+
+    }
+    .Rectangle4 {
+        left: 150px;
+
+    }
+    .Rectangle5 {
+        left: 150px;
+
+    }
+    .Rectangle6 {
+        left: 150px;
+
+    }
+    .product_wrapper_one {
+        display: inline;
+    }
+    .sofa_Rectangle_one .Sofa3 {
+        padding-left: 175px;
+    }
+    .main_product_wrapper_two {
+        display: inline;
+    }
+    .sofa_Rectangle_one .Sofa4 {
+        padding-left: 135.36px;
+    }
+    .sofa_Rectangle_one .Sofa5 {
+        padding-left: 170px;
+    }
+    .sofa_Rectangle_one .Sofa6 {
+        padding-left: 140px;
+    }
+    .products_wrapper {
+        display: inline;
+    }
+    .customer_pic {
+        margin-left: -6px;
+    }
+    .girls_pic {
+        margin-left: 10px;
+        margin-top: 29px;
+    }
+    .review_title {
+        margin-left: -102px;
+        margin-top: -129px;
+    }
+    .customer_rating {
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .Signup_title {
+        margin-left: -4px;
+        margin-top: -105px;
+    }
+    .multiple_buttons {
+        width: 473px;
+    }
+    .sign_last {
+        margin-left: -924px;
+        margin-top: 148px;
+        position: absolute;
+        
+    }
+    .signUp_title2 {
+        display: inline-flex;
+        margin-left: 0px;
+        margin-top: 57px;
+        position: absolute;
+    }
+    .sign_last img {
+        width: 185px;
+        height: 230px;
+        top: 4077px;
+        left: 1106px;
+        margin-left: 1217px;
+        margin-top: -100px;
+    }
+    .Signup_title h1 {
+        margin-left: 7px;
+        width: 174%;
+        font-size: 27px;
+    }
+    .footer_one {
+        margin-top: 250px;
+    }
+    .navbar-brand{
+        margin-left: -185px;
+    }
+    .navicon {
+        margin-left: 382px;
+        font-size: 24px;
+        display: flex;
+        margin-top: 17px !important;
+        gap: 5px;
+        
+    }
+    .Signup_title h1 {
+        margin-left: 7px;
+        width: 90%;
+        font-size: 27px;
+    }
+    .footter_main h5 {
+        width: 100%;
+        position: absolute;
+        margin-top: 153px;
+    }
+    .footer_nev{
+        gap: 100px;
+    }
+    .signUp_title2 {
+        display: inline-flex;
+        margin-left: 0px;
+        margin-top: 34px;
+    }
+    .line {
+        width: 97%;
+        margin-top: 146px;
+        position: absolute;
+    }
+
+    .sign_last {
+        margin-left: -932px;
+        margin-top: 148px;
+    }
+    .navbar_nav {
+        display: flex;
+        margin-left: 2px;
+    }
+    .footer_one img {
+        margin-top: 200px;
+    }
+    .footer_one ul li {
+
+        margin-left: 15px;
+    }
+    .navicon i {
+        margin-right: 10px;
+    }
+    .navicon {
+        margin-top: -41px;
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
